@@ -27,12 +27,11 @@
 - 광고 가이드에서 기본적인 제한 사항이 명시됨
 
 ![화면 캡처 2021-12-16 164054.png](img/adv_text.png)
-
-![화면 캡처 2021-12-16 164322.png](img/1_content.png)
+<img src = "img/1_content.png" width="35%" height="35%">
 
 - CPC기반 광고 상품인 키워드 프리미엄의 경우 특정 키워드를 포함하고 있는 검색어에 광고를 더 많이 노출하거나, 상품을 광고할 타겟을 직접 설정할 수 있음
 
-![광고 타겟.JPG](img/avd_target.jpg)
+![광고 타겟.JPG](img/adv_target.jpg)
 
 → 번개장터의 광고 데이터를 활용하여 각 유형의 구매자들에게 어떤 광고 상품이 매력적일지 분석해 보고, 클릭율을 높일 수 있는 방안을 생각해본다.
 
@@ -108,7 +107,7 @@
 
 1. **로그특성**
     
-    ![Untitled](img/3%E1%84%8C%E1%85%A9_%E1%84%80%E1%85%B5%E1%84%92%E1%85%AC%E1%86%A8%E1%84%89%E1%85%A5%20606084e6f6c944939c23722a56c59ae2/Untitled.png)
+    ![Untitled](img/primary_column.png)
     
 2. **광고**
     
@@ -116,11 +115,11 @@
     
 3. **판매자**
     
-    ![Untitled](3%E1%84%8C%E1%85%A9_%E1%84%80%E1%85%B5%E1%84%92%E1%85%AC%E1%86%A8%E1%84%89%E1%85%A5%20606084e6f6c944939c23722a56c59ae2/Untitled%201.png)
+    ![Untitled](img/adv_column.png)
     
 4. **유저**
     
-    ![화면 캡처 2021-12-16 170409.png](3%E1%84%8C%E1%85%A9_%E1%84%80%E1%85%B5%E1%84%92%E1%85%AC%E1%86%A8%E1%84%89%E1%85%A5%20606084e6f6c944939c23722a56c59ae2/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2021-12-16_170409.png)
+    ![화면 캡처 2021-12-16 170409.png](img/viewer_column.png)
     
 5. **크롤링** 
     
@@ -133,25 +132,9 @@
     content_delivery_fee          : 배송비 여부(배송비 포함, 배송비 별도) 
     content_img_url                 : 이미지 링크
     
-<<<<<<< HEAD
-=======
-4. **판매자**
-    
-    ![Untitled](img/Untiteld.png)
-    
-5. **유저**
-    
-    ![화면 캡처 2021-12-16 170409.png](3%E1%84%8C%E1%85%A9_%E1%84%80%E1%85%B5%E1%84%92%E1%85%AC%E1%86%A8%E1%84%89%E1%85%A5%20606084e6f6c944939c23722a56c59ae2/%ED%99%94%EB%A9%B4_%EC%BA%A1%EC%B2%98_2021-12-16_170409.png)
-    
 - merged data
-    
-    ![merge.PNG](img/merge.png)
-    
->>>>>>> 59087219af726ef11026436ae4fc94a26417415f
 
-### **Merged Data**
-
-![merge.PNG](3%E1%84%8C%E1%85%A9_%E1%84%80%E1%85%B5%E1%84%92%E1%85%AC%E1%86%A8%E1%84%89%E1%85%A5%20606084e6f6c944939c23722a56c59ae2/merge.png)
+![merge.PNG](img/merge.png)
 
 # 4. 사용할 모델 리스트
 
@@ -187,14 +170,9 @@
 2. Colab, Jupyter-Notebook을 통해 작업 내용 공유
 3. Notion을 통해 진행 상황 공유 및 기획서 작성
 4. data는 무겁거나, 보안 등의 문제 Google Drive로 공유
-<<<<<<< HEAD
 
 # 6. Reference
 
 - [번개장터 기술블로그](https://medium.com/bunjang-tech-blog)
 - [번개장터 판매자센터](https://m.bunjang.co.kr/seller)
 - 패스트캠퍼스 THE-RED 강의
-
----
-=======
->>>>>>> 59087219af726ef11026436ae4fc94a26417415f
