@@ -16,21 +16,74 @@
 
 ## Requirements
 [![Python-package GitHub Actions Build Status](https://github.com/microsoft/LightGBM/workflows/Python-package/badge.svg?branch=master)](https://github.com/microsoft/LightGBM/actions)
-- Python ver 131
-- DeepCTR 퍼옴
+- colab
+- DeepCTR
 - SQL
 
-## Structure 구조
-└┤´д`├┘
- ├ ─ ─ code/
-│   ├── crawl
-│   │   └── bunjang_crawl.py
+## Structure
+```
+├── 0.crawling_bunjang
+│   ├── ad_content_crawling.ipynb
+│   ├── advertiser_title 크롤링(21.12.15).ipynb
+│   └── crawling.md
+│
+├── 1.processing_code
+│   ├── age_ch_processing.ipynb
+│   ├── b_pay_rate_processing.ipynb
+│   ├── EDA_category-emergency(21.12.16).ipynb
+│   ├── image_to_feature.ipynb
+│   ├── merge_data.ipynb
+│   ├── place.py
+│   ├── 전처리_및_병합.py
+│   └── processing.md
+│
+├── 2.model_code
+│   ├── deepctr_torch
+│   │   │
+│   │   ├── layers
+│   │   │   ├── __init__.py
+│   │   │   ├── activation.py
+│   │   │   ├── core.py
+│   │   │   ├── interaction.py
+│   │   │   ├── sequence.py
+│   │   │   └── utils.py
+│   │   │
+│   │   ├── models
+│   │   │   ├── __init__.py
+│   │   │   ├── basemodel.py
+│   │   │   └── deepfm.py
+│   │   │
+│   │   ├── __init__.py
+│   │   ├── callbacks.py
+│   │   ├── inputs.py
+│   │   └── utils.py
 │   │
+│   ├── lgb_model
+│   │    └── grid_100_result.csv
+│   │
+│   ├── DeepFM(예시).ipynb
+│   ├── DeepFM_1227_동영.ipynb
+│   ├── DeepFM_태양.ipynb
+│   ├── LightGBM(예시).ipynb
+│   ├── LightGBM_display.ipynb
+│   └── Model.md
+│
+├── documents
+│   └── documents.md
+│
+├── img
+│
+├── .gitignore
+├── DeepFM_동영.ipynb
+├── introduce.md
+├── LICENSE
+└── README.md
+```
+
 ## 모델
-|모델|AUC|RIG|설명|
-|--|--|---|----|
-|LGB|0.77|33dd|ddddddddddd|
-|DeepFM|0.77|33dd|ddddddddddd|
+|모델|AUC|RIG|
+|--|--|---|
+|LGB|0.7813|0.1186|
+|DeepFM|0.7487|0.0856|
+
 ## 특징분석
-이미지
-EDA한거 태블로 이런거
