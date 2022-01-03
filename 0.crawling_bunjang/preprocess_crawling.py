@@ -53,6 +53,8 @@ def sido_new(place):
         for name in place_dict.keys():
             if name in place:
                 place = place_dict[name]
+            else:
+                palce = '전국'
     else:
         place = '전국'
     return place
@@ -89,6 +91,8 @@ def preprocess_crawling(df_):
     df['content_delivery_fee'] = df['content_delivery_fee'].apply(lambda x : 1*x)
     # b_pay -> train 데이터와 같게
     df['content_b_pay'] = df['content_b_pay'].apply(lambda x : 1 - 1*x)
+    # 중고 여부를 train 데이터와 같게
+    df['content_used'] = df['content_used'].apply(lambda x: 0 if x==2 else 1)
     # 지역명을 시/도 형식에 맞게
     df['content_place'] = df['content_place'].apply(sido_new)
     # pay option에서 필요한 부분만 사용
@@ -109,3 +113,4 @@ def preprocess_crawling(df_):
 
 df = pd.read_csv('data/new_total_data.csv')
 df = preprocess_crawling(df)
+# df.to_csv('data/new_total_data_pre.csv')
