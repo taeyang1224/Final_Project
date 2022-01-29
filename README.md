@@ -27,26 +27,26 @@
 
 ## Code Structure
 ```
-├── notebooks
-│   ├── 데이터 수집 및 전처리
+├── notebooks/
+│   ├── 데이터 수집 및 전처리/
 │   │   ├── 전처리 및 병합.ipynb
 │   │   ├── 신규 게시글 크롤링.ipynb
-│   │   ├── image
+│   │   ├── image/
 │   │   │       background_OpenCV.ipynb
 │   │   │       image_background.ipynb
 │   │   │       image2vec_practice.ipynb
 │   │   │
-│   │   └── text
+│   │   └── text/
 │   │           brand.txt
 │   │           FastText.ipynb
 │   │           train_text2vec.ipynb
 │   │
-│   ├── CTR Prediction
-│   │   ├── LightGBM
-│   │   ├── DeepFM
+│   ├── CTR Prediction/
+│   │   ├── LightGBM/
+│   │   ├── DeepFM/
 │   │   └── CTR prediction.ipynb
 │   │
-│   ├── 특징 분석
+│   ├── 특징 분석/
 │   │       모델 비교 EDA.ipynb
 │   │       정형 데이터 분석.ipynb
 │   │       이미지 분석.ipynb
@@ -55,10 +55,10 @@
 │   ├── SQL.py
 │   └── SQL_업로드.py
 │
-├── code
-│   ├── data
+├── code/
+│   ├── data/
 │   │
-│   ├── deepctr_torch
+│   ├── deepctr_torch/
 │   │
 │   ├── requirements.txt
 │   ├── preprocess.py
@@ -69,7 +69,6 @@
 │
 ├── documents
 │   ├── 기획안
-│   │
 │   └── 발표자료
 │
 └── README.md
