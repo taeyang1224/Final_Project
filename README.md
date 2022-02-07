@@ -8,18 +8,8 @@
 | [![Avatar](https://avatars.githubusercontent.com/u/89237850?v=4)](https://github.com/dongyoung0) | [![Avatar](https://avatars.githubusercontent.com/u/89237873?v=4)](https://github.com/taeyang1224) | [![Avatar](https://avatars.githubusercontent.com/u/89237880?v=4)](https://github.com/Sunmyunghan) |
 | [Github](https://github.com/dongyoung0) | [Github](https://github.com/taeyang1224) | [Github](https://github.com/Sunmyunghan) |
 
-## 프로젝트 소개
-- **주제: 번개장터 데이터를 활용한 머신러닝 프로젝트**
-- 문제 배경
-  * 번개장터에서 제공하는 판매자 가이드북이 존재하고 있지만, 유저들이 현실적으로 가이드북을 참고하지 않고 있는것이 중요한 문제점이라 판단된다.
-  * 가이드를 따르지 않는다는것은 가이드북의 필요성이 느껴지지 않기 때문이다.
-  * 기업의 이윤 극대화를 위해 판매자들의 광고가 유저에게 전달되어야 하고, 판매자용 가이드북을 개선할 필요가 있다.
-- 작업환경: Colab, Git-hub, Jupyter-Notebook
-- 사용언어: python
-- 세부사항은 introduce.md 확인
+### Notion: [Final_project](https://www.notion.so/SSAC-Final_Project_3-2d335c0493614a0d87c78fa52a0ee01c)
 
-Notion: [Final_project](https://www.notion.so/SSAC-Final_Project_3-2d335c0493614a0d87c78fa52a0ee01c)
-=======
 ### ✔️ 프로젝트 목적
 **번개장터**에서 제공받은 **광고 로그 데이터**를 기반으로 게시글들의 **클릭율을 예측**하여 클릭율이 높은 게시글들의 **특징을 분석**한 후 신규 게시글 등록시에 **가이드를 제공**해주는 프로젝트입니다.
 
