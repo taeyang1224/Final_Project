@@ -8,7 +8,6 @@
 | [![Avatar](https://avatars.githubusercontent.com/u/89237850?v=4)](https://github.com/dongyoung0) | [![Avatar](https://avatars.githubusercontent.com/u/89237873?v=4)](https://github.com/taeyang1224) | [![Avatar](https://avatars.githubusercontent.com/u/89237880?v=4)](https://github.com/Sunmyunghan) |
 | [Github](https://github.com/dongyoung0) | [Github](https://github.com/taeyang1224) | [Github](https://github.com/Sunmyunghan) |
 
-<<<<<<< HEAD
 ## 프로젝트 소개
 - **주제: 번개장터 데이터를 활용한 머신러닝 프로젝트**
 - 문제 배경
@@ -121,4 +120,4 @@ pip install -r requirements.txt
 ```
 $ streamlit run app.py
 ```
->>>>>>> develop
+
